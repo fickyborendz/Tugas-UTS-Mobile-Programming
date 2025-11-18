@@ -10,6 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # dependencies tambahan
+  cupertino_icons: ^1.0.5
+  shared_preferences: ^2.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,3 +21,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  # Jika pakai image (logo, avatar) letakkan file di folder berikut:
+  assets:
+    - assets/images/user.png
+    - assets/images/logo - Copy.jpg

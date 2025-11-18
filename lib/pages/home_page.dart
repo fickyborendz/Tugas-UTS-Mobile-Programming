@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/material.dart';
+import 'package:app_pertama/pages/item_page.dart';
+import 'package:app_pertama/pages/setting_page.dart';
 class Item {
   final String name;
   final int qty;
